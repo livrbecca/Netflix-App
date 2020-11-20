@@ -1,0 +1,36 @@
+body {
+  background: #121316;
+  color: white;
+}
+
+.movie-app > .row {
+  overflow-x: visible;
+  flex-wrap: nowrap;
+}
+
+.imagecontainer{
+  position: relative;
+  width: 60px;
+  transition: transform 0.2;
+}
+
+.image-container:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+
+.image-container:hover .overlay{
+  opacity: 0.9;
+}
+
+.overlay {
+  position: absolute;
+  background: purple;
+  width: 50%;
+  transition: 0.5s ease;
+  opacity: 0;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}

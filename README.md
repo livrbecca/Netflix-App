@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This is a 'Movie' style Netflix app. Use the search bar to search for your favourite movies, and add them to the 'Favourites' list. You favourites movies will not dispear upon re-fresh due to utilising local storage, unless you click remove.
+
+The list of movie scrolls left to right.
+
 ## Available Scripts
 
 In the project directory, you can run:

@@ -55,7 +55,7 @@ const App = () => {
   return (
     <div className="container-fluid movie-app">
       <div className="row d-flex align-items-center mt-4 mb-4">
-        <MovieListHeading heading2="Movies" heading="Liv-flix" heading3="(like Nextlifx, get it?)" />
+        <MovieListHeading heading2="Search a Movie to get Started" heading="Liv-flix" heading3="(like Nextlifx, get it?)" />
         <SearchBox searchValue={searchValue} setSearchValue={setSearchValue} />
       </div>
       <div className="row">
